@@ -1,5 +1,3 @@
-import { countReducer } from './reducers/countReducer'
-
 export default function createStore(reducer) {
   // add your code here
   let state;
@@ -24,6 +22,3 @@ export default function createStore(reducer) {
 function render() {
   const container = document.getElementById('container');
 };
-
-// let store = createStore(countReducer)
-// store.
